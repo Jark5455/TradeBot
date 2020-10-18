@@ -58,7 +58,7 @@ class TradeBot():
     def ws_on_open(self, ws):
         print("Connection Opened")
         symbols = self.portfolio.positions.keys()
-        auth_data = {"action": "authenticate","data": {"key_id": 'PKEV8QACEX3PR55ST3FG', "secret_key": 'k4QH3bHIcg2WuyPhXKilTqp8eePMxbRNWxy9aXO6'}}
+        auth_data = {"action": "authenticate","data": {"key_id": 'API_KEY', "secret_key": 'API_SECRET_KEY'}}
         ws.send(json.dumps(auth_data))
 
         for symbol in symbols:
