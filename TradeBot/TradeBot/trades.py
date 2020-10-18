@@ -7,8 +7,8 @@ from typing import List
 from typing import Union
 from typing import Optional
 
-API_KEY = 'PKEV8QACEX3PR55ST3FG'
-API_SECRET_KEY = 'k4QH3bHIcg2WuyPhXKilTqp8eePMxbRNWxy9aXO6'
+API_KEY = 'API_KEY'
+API_SECRET_KEY = 'API_SECRET_KEY'
 ALPACA_BASE_URL = 'https://paper-api.alpaca.markets'
 
 api = tradeapi.REST(API_KEY, API_SECRET_KEY, ALPACA_BASE_URL, api_version='v2')
