@@ -1,0 +1,1 @@
+Please do not use this. It is completely unprofitable and is just me being an idiot messing around with nueral networks. It has not been tested enough in paper accounts and I don't want people to lose money because of me.
